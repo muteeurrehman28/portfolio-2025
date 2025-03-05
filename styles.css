@@ -7,66 +7,42 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    display: flex;
 }
 
-.navbar {
-    margin-bottom: 20px;
+#wrapper {
+    display: flex;
+    width: 100%;
 }
 
-#home {
-    background-color: #f8f9fa;
-    color: #333;
-}
-
-#home img {
-    border: 5px solid #ddd;
-    padding: 5px;
-}
-
-#education {
+#sidebar {
+    width: 250px;
+    min-height: 100vh;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #343a40;
+    color: white;
 }
 
-#education table {
-    border-radius: 10px;
+#sidebar .nav-link {
+    color: white;
+    padding: 10px;
+    display: block;
 }
 
-#projects {
-    background-color: #fff;
+#sidebar .nav-link:hover {
+    background-color: #007bff;
+}
+
+#content {
+    margin-left: 250px;
+    flex-grow: 1;
 }
 
 .card {
     margin-bottom: 20px;
-}
-
-.card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
-.card-text {
-    font-size: 1rem;
-}
-
-#contact {
-    background-color: #f8f9fa;
-}
-
-.form-label {
-    font-weight: bold;
-}
-
-textarea.form-control {
-    resize: vertical;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.container {
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .btn-primary {
@@ -79,15 +55,13 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
-    .navbar-nav {
-        flex-direction: column;
+    #sidebar {
+        width: 100px;
     }
-
-    .navbar-nav .nav-item {
-        margin-bottom: 10px;
+    #content {
+        margin-left: 100px;
     }
-
-    .card {
-        margin-bottom: 15px;
+    .sidebar-header h3 {
+        font-size: 1rem;
     }
 }
