@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+#home {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+#home img {
+    border: 5px solid #ddd;
+    padding: 5px;
+}
+
+#education {
+    background-color: #343a40;
+}
+
+#education table {
+    border-radius: 10px;
+}
+
+#projects {
+    background-color: #fff;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+#contact {
+    background-color: #f8f9fa;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}
