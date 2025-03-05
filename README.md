@@ -4,7 +4,7 @@
 A modern portfolio website showcasing my skills and projects.
 
 ## Screenshots
-![Screenshot](screenshot.png)
+![Screenshot](assets/Portfolio%20Website%20Screenshot.png)
 
 ## Live Demo
 [View Live](https://yourgithubusername.github.io/portfolio-2025/)
