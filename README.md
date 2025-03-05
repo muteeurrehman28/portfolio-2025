@@ -7,4 +7,4 @@ A modern portfolio website showcasing my skills and projects.
 ![Screenshot](assets/portfolio-screenshot.png)
 
 ## Live Demo
-[View Live](https://yourgithubusername.github.io/portfolio-2025/)
+[View Live](https://muteeurrehman28.github.io/portfolio-2025/)
