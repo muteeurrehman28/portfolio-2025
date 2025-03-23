@@ -120,26 +120,6 @@ section {
   }
 }
 
-/* Prevent Sidebar and Contact Form from fading out in Dark Mode */
-[data-theme="dark"] .sidebar,
-[data-theme="dark"] #contact {
-  opacity: 1 !important;
-  animation: none !important;
-}
-
-/* Dark Mode Input & Placeholder Colors */
-[data-theme="dark"] input,
-[data-theme="dark"] textarea,
-[data-theme="dark"] select {
-  background-color: #444 !important;
-  color: #fff !important;
-  border: 1px solid #555 !important;
-}
-
-[data-theme="dark"] ::placeholder {
-  color: #ccc;
-}
-
 /* Additional Custom Styles */
 .table-responsive {
   overflow-x: auto;
