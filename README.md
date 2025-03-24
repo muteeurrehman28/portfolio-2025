@@ -1,7 +1,7 @@
 # Portfolio 2025
 
 ## Project Description
-A modern portfolio website showcasing my skills and projects.
+A modern, professional portfolio website that clearly showcases my skills and projects, making it easy to explore my work and expertise.
 
 ## Screenshots
 ![Screenshot](assets/portfolio-screenshot.png)
